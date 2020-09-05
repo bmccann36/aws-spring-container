@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "pet-store-spring-boot"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-19jxv3p0d4b2h"
+s3_prefix = "pet-store-spring-boot"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+
